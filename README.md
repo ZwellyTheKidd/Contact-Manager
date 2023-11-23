@@ -1,70 +1,154 @@
-# Getting Started with Create React App
+Contact Manager App with React and Redux (Class Components)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This repository is a boilerplate for building a Contact Manager application using React and Redux with class components. It provides a foundation for managing contacts, demonstrating the integration of Redux for state management within a React application.
 
-In the project directory, you can run:
+Table of Contents
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Getting Started
 
-### `npm test`
+Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Folder Structure
 
-### `npm run build`
+Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Redux Configuration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+License
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Features
+React 17: Utilize the latest version of React for building interactive user interfaces.
+Redux: Manage the application state in a predictable way, facilitating easy data flow within components.
+Class Components: Implement components using class syntax for stateful behavior.
+Contact Management: Basic features for adding, editing, and deleting contacts.
+Redux DevTools Integration: Debug and monitor state changes with the Redux DevTools extension.
+Thunks: Manage asynchronous actions using thunks with Redux middleware.
+Routing: Incorporate React Router for seamless navigation within the application.
+Prerequisites
+Ensure that you have the following software installed on your machine:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Node.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm or Yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Getting Started
 
-### Code Splitting
+Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repository:
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+git clone [https://github.com/your-username/contact-manager-react-redux-class.git](https://github.com/ZwellyTheKidd/Contact-Manager)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Navigate to the project directory:
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+cd contact-manager-react-redux-class
 
-### Deployment
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+npm install   # or yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Folder Structure
+
+The project follows a structured organization to enhance maintainability:
+
+
+
+.
+├── public
+
+├── src
+
+│   ├── actions
+
+│   ├── components
+
+│   ├── containers
+
+│   ├── reducers
+
+│   ├── services
+
+│   ├── styles
+
+│   ├── utils
+
+│   ├── App.js
+
+│   ├── index.js
+
+├── .gitignore
+
+├── package.json
+
+├── README.md
+
+└── webpack.config.js
+
+public: Contains the HTML template and other static assets.
+
+src: The main source code of your application.
+
+actions: Redux action creators related to contacts.
+
+components: React components (class components) for UI.
+
+containers: Connects React components to the Redux store.
+
+reducers: Redux reducers handling contact state.
+
+services: Utility functions or services.
+
+styles: Styling using SASS.
+
+utils: General utility functions.
+
+App.js: The main entry point of the React application.
+
+index.js: Renders the React application.
+
+.gitignore: Specifies files and directories to ignore in version control.
+
+package.json: Project configuration and dependencies.
+
+README.md: Documentation for the project.
+
+webpack.config.js: Webpack configuration for bundling the application.
+Usage
+Start the development server to view the application:
+
+npm start   # or yarn start
+Visit http://localhost:3000 in your browser.
+
+Redux Configuration
+
+This project includes a basic Redux setup for managing contact-related state. Extend and customize the Redux configuration as needed. Refer to the Redux documentation for comprehensive guidance.
+
+
+Contributing
+
+Feel free to open GitHub issues or create pull requests for suggestions, enhancements, or bug fixes.
+
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
